@@ -8,6 +8,7 @@
 > datatypes= strings (which will be in ""), numbers (which will be simply any no.), boolean (which will be in true or false),
   null (it's a standalone value, we can say it's a representation of an empty value), undefined (means variable mentioned but value not declared),
   symbol(when it comes on uniqueness), object, typeof(it will show thw datatypes)
+  
   undefined => datatype will be undefined
   null => datatype will be object 
 */
