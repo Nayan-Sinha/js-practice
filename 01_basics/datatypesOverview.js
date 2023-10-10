@@ -30,7 +30,7 @@ let myData = {
     address: "Siliguri"
 }
 
-function(){}            //so it's a definition of function
+/* function(){} */            //so it's a definition of function
 
 const myFunction = function(){
     console.log("Hello World");
