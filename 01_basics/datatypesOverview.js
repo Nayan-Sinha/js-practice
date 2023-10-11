@@ -47,5 +47,21 @@ console.log(typeof anotherId);          // datatype will be symbol
 console.log(typeof bigNumber);          // datatype will be BigInt
 console.log(typeof heroes);             // datatype will be object
 
+//***************************************************************************************************************************//
 
+let myName = "Nayan"
+let hisName = myName
+hisName = "Sam"
+console.log(myName);        // output will be Nayan
+console.log(hisName);       // output will be Sam
 
+let userOne = {
+    email: "user@google.com",
+    empId: 1254
+}
+
+let userTwo = userOne
+userTwo.email = "nayan@google.com"
+
+console.log(userOne.email);     // output will be nayan@google.com
+console.log(userTwo.email);     // output will be nayan@google.com
