@@ -37,7 +37,7 @@ console.log(valueInNumber);             // here the value you will get NaN
 
 let valueInNumber = Number(score4)   
 console.log(typeof valueInNumber);      // this line of code will show the type of data
-console.log(valueInNumber);             // here the value you will get 1 as it is true state, if false then it will be 0
+console.log(valueInNumber);             // here the value you will get 1 as it is true state; if it is false, then it will be 0
 
 
 let valueInNumber = Number(score5)   
@@ -48,12 +48,12 @@ console.log(valueInNumber);             // here the value you will get NaN
 
 let isLoggedIn = 1              // we can write isLoggedIn or Scor6 (choice is yours)
 
-let booleanIsLoggedIn = Boolean(isLoggedIn)
+let booleanIsLoggedIn = Boolean(isLoggedIn)    // to be very specific with Boolean
 console.log(typeof booleanIsLoggedIn);      // this line of code will show the type of data
 console.log(booleanIsLoggedIn);         // here the value you will get true, if 0 then it will be false
 
 
-let isLoggedIn = ""              // if we convert "" (this is empty string)
+let isLoggedIn = ""              // if we convert "" (this is call empty string.)
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)
 console.log(typeof booleanIsLoggedIn);      // this line of code will show the type of data
