@@ -14,7 +14,7 @@ let userEmail               // simply it is undefined
 
 const id = Symbol('12')
 const anotherId = Symbol('12')      // symbol datatypes
-console.log(id === anotherId);
+console.log(id === anotherId);       // to check whether id and anotherId is equal or not
 
 const bigNumber = 567657435464n     // so in BigInt you have to include n at last
 
