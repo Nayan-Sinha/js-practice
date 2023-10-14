@@ -10,7 +10,7 @@ console.log(2-2);       //sub
 console.log(2*2);       //mul
 console.log(2/2);       //div
 console.log(2%2);       //remainder or modulus
-console.log(2**3);       //2 to the power 3
+console.log(2**3);       //2 to the power 3 or it call exponential
 
 let str1 = "Hii "
 let str2 = "Nayan"
